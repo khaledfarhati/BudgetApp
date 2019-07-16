@@ -1,0 +1,45 @@
+html,
+body {
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 0.8em;
+  font-family: Roboto, Lato, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 48em) {
+  body {
+    padding: 0 3em;
+  }
+}
+
+:global(#root) {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+main,
+main > section {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  height: 100%;
+}
+section {
+  height: 400px;
+  flex: 1;
+}

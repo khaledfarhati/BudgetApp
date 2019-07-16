@@ -1,0 +1,19 @@
+.CellLabel {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.CellContent {
+  flex: 1;
+}
+
+.Neg {
+  color: #e31515;
+}
+
+.Pos {
+  color: #148727;
+}

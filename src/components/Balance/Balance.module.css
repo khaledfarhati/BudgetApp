@@ -1,0 +1,46 @@
+.BalanceRowContainer {
+  display: flex;
+  justify-content: center;
+  margin: 3em 0 2em 0;
+  height: 90px;
+}
+.BalanceRow {
+  display: flex;
+  padding: 0 1em;
+  border: 1px solid #b1b1b1;
+  border-radius: 6px;
+  background-color: #ffed86;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.BalanceRow .BalanceWrapper {
+  display: flex;
+}
+
+.BalanceRow .BalanceSymbol {
+  align-self: center;
+  padding-bottom: 1.2em;
+}
+
+.BalanceRow .BalanceItem {
+  flex: 1;
+  padding: 0.5em 0;
+}
+.BalanceRow .BalanceAmount {
+  display: inline-block;
+  padding: 1em;
+  margin: 0.5em;
+  border: 1px solid #b1b1b1;
+  border-radius: 6px;
+  background-color: white;
+}
+.BalanceRow .BalanceAmount.neg {
+  color: #e31515;
+}
+.BalanceRow .BalanceAmount.pos {
+  color: #148727;
+}
+.BalanceTitle {
+  text-align: center;
+}

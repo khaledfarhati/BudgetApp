@@ -1,0 +1,17 @@
+.Legend {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.Reverse {
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}
+
+.Value {
+  font-size: 1rem;
+  color: #757575;
+  padding-left: 0.5em;
+}

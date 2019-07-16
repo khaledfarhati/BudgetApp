@@ -1,0 +1,46 @@
+.EntryRowForm {
+  padding: 2px !important;
+}
+.EntryRowForm td form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.FormSection {
+  display: flex;
+  padding: 1px;
+}
+.Btn {
+  -webkit-appearance: none;
+  border-radius: 999px;
+  border: 0;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.0625);
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.225rem;
+  padding: 0.5rem 1rem;
+
+  transition: all 186ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.Btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+.Primary {
+  background: #3c4858;
+  margin-left: 0.5rem;
+}
+.Danger {
+  background: #e75650;
+  margin-left: 0.5rem;
+}
+.Cancel {
+  background-color: #fff;
+  color: #3c4858;
+  margin-left: 0.5rem;
+  border: 1px solid #e0e6ed;
+  border-bottom: 2px solid #e0e6ed;
+}

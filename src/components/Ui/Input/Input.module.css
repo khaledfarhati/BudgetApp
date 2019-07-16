@@ -1,0 +1,39 @@
+.FormSection {
+  display: inline-flex;
+  padding: 1px;
+}
+.FormSection:nth-child(1),
+.FormSection:nth-child(3) {
+  min-width: 231px;
+  flex: 1;
+}
+.FormSection:nth-child(2) {
+  flex: 3;
+}
+
+.InputElement {
+  outline: none;
+  border: 1px solid #ccc;
+  background-color: white;
+  font: inherit;
+  padding: 6px 10px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.InputElement:focus {
+  outline: none;
+  background-color: #ccc;
+}
+.Invalid {
+  border: 1px solid red;
+  background-color: #fda49a;
+}
+.Quantity {
+  width: 35%;
+  margin: 0 10px;
+}
+.Type {
+  width: 45%;
+}

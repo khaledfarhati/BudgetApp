@@ -1,0 +1,14 @@
+/*.MidContainer {
+  max-width: 960px;
+}
+.SmContainer {
+  max-width: 560px;
+}
+.MidContainer,
+.SmContainer {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+*/

@@ -1,0 +1,124 @@
+.BudgetGrid {
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+  border: 1px solid #b1b1b1;
+  border-collapse: collapse;
+  font-size: 0.8em;
+}
+.BudgetGrid tr {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  height: inherit;
+  padding: 8px;
+}
+
+.BudgetGrid th,
+.BudgetGrid td {
+  text-align: left;
+  overflow: hidden;
+}
+.BudgetGrid th:last-child,
+.BudgetGrid td:last-child {
+  text-align: right;
+}
+.BudgetGrid th:nth-child(1),
+.BudgetGrid td:nth-child(1),
+.BudgetGrid th:nth-child(3),
+.BudgetGrid td:nth-child(3) {
+  flex: 1;
+  min-width: 120px;
+}
+.BudgetGrid th:nth-child(2),
+.BudgetGrid td:nth-child(2) {
+  flex: 3;
+}
+.BudgetGrid thead,
+.BudgetGrid tfoot {
+  background-color: #ffed86;
+}
+.BudgetGrid thead {
+  border-bottom: 1px solid #b1b1b1;
+}
+.BudgetGrid tbody {
+  overflow-y: scroll;
+  display: block;
+  flex: 1;
+}
+.BudgetGrid tbody tr {
+  border-bottom: 1px solid #dadada;
+}
+.BudgetGrid tbody tr:hover {
+  cursor: pointer;
+  background-color: #ffed86;
+}
+.BudgetGrid tbody td {
+  vertical-align: top;
+  text-overflow: ellipsis;
+}
+.BudgetGrid tfoot {
+  display: flex;
+  flex-wrap: nowrap;
+  border-top: 1px solid #b1b1b1;
+}
+@media only screen and (max-width: 767px) {
+  table,
+  thead,
+  tbody,
+  tbody tr {
+    display: block;
+  }
+  thead {
+    display: none;
+  }
+  tbody tr {
+    padding: 12px 8px;
+  }
+
+  tbody td {
+    display: flex;
+    margin-bottom: 12px;
+  }
+  tbody td :last-child {
+    text-align: left;
+    margin-bottom: 0;
+  }
+}
+/*.BudgetGrid {
+  width: 100%;
+  font-size: 0.8em;
+}
+
+.BudgetGrid th {
+  text-transform: uppercase;
+}
+.BudgetGrid th,
+.BudgetGrid td {
+  border: 1px solid #b1b1b1;
+}
+.BudgetGrid thead,
+.BudgetGrid tfoot {
+  background-color: #ffed86;
+}
+.BudgetGrid tfoot {
+  display: block;
+  max-width: 100%;
+}
+@media only screen and (max-width: 899px) {
+  .BudgetGrid,
+  .BudgetGrid thead,
+  .BudgetGrid tbody,
+  .BudgetGrid tfoot,
+  .BudgetGrid tr,
+  .BudgetGrid th,
+  .BudgetGrid td {
+    display: block;
+  }
+  .BudgetGrid thead {
+    display: none;
+  }
+  .BudgetGrid tr {
+    margin: 0 0 25px 0;
+  }
+}*/

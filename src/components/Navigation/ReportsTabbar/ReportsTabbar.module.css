@@ -1,0 +1,27 @@
+.Tabbar {
+  border: 1px solid #dadada;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  max-height: 3em;
+  margin-bottom: 2em;
+}
+
+.Navlink {
+  float: left;
+  padding: 1em 2em;
+  white-space: nowrap;
+  font-size: 0.9em;
+  outline: none;
+  color: #000;
+  text-decoration: none;
+}
+.NavLink:last-child {
+  border-left: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+}
+
+.Active {
+  color: #000;
+  background-color: #ffed86;
+}
